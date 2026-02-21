@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amr Khaled | Data Scientist</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="AI-PNG-Isolated-HD.png"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <style>
+      /* Header */
+header {
+  background: white;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  z-index: 1000;
+}
+
+.navbar {
+  max-width: 1100px;
+  margin: auto;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #111827;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #2563eb;
+}
+
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #f9fafb;
+        color: #111827;
+      }
+
+
+      .container {
+        max-width: 1100px;
+        margin: auto;
+        padding: 40px 20px;
+      }
+      /* Hero */
+      .hero {
+        text-align: center;
+        margin-bottom: 80px;
+      }
+
+      .hero img {
+        width: 360px;
+        height: 360px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      }
+
+      .hero h1 {
+        font-size: 48px;
+        margin-bottom: 10px;
+      }
+
+      .hero h2 {
+        font-size: 22px;
+        font-weight: normal;
+        color: #6b7280;
+        margin-bottom: 20px;
+      }
+
+      .hero p {
+        max-width: 600px;
+        margin: auto;
+        color: #374151;
+        line-height: 1.6;
+      }
+
+      /* About */
+.about-content {
+  max-width: 800px;
+  line-height: 1.8;
+  color: #374151;
+  font-size: 17px;
+}
+
+      /* CV Section */
+.cv-box {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  max-width: 500px;
+  text-align: center;
+}
+
+.cv-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 24px;
+  background: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.cv-btn:hover {
+  background: #1e40af;
+}
+
+
+      .buttons {
+        margin-top: 30px;
+      }
+
+      .buttons a {
+        display: inline-block;
+        margin: 8px;
+        padding: 12px 20px;
+        border-radius: 8px;
+        text-decoration: none;
+        border: 1px solid #111827;
+        color: #111827;
+        transition: 0.3s;
+      }
+
+      .buttons a:hover {
+        background: #111827;
+        color: white;
+      }
+
+      /* Sections */
+      section {
+        margin-bottom: 80px;
+      }
+
+      section h3 {
+        font-size: 32px;
+        margin-bottom: 30px;
+      }
+
+      /* Skills */
+      .skills {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 16px;
+      }
+
+      .skill {
+        background: white;
+        padding: 20px;
+        text-align: center;
+        border-radius: 14px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        font-weight: bold;
+      }
+
+      /* Education */
+.education-card {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  max-width: 700px;
+}
+
+
+      /* Projects */
+      .projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 24px;
+      }
+
+      .project {
+        background: white;
+        padding: 24px;
+        border-radius: 16px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      }
+
+      .project h4 {
+        margin-top: 0;
+        font-size: 20px;
+      }
+
+      .project p {
+        color: #4b5563;
+        line-height: 1.5;
+      }
+
+      .project a {
+        display: inline-block;
+        margin-top: 12px;
+        text-decoration: none;
+        color: #2563eb;
+        font-weight: bold;
+      }
+
+      /* Footer */
+      footer {
+        text-align: center;
+        color: #6b7280;
+        padding: 20px 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">Amr Khaled</div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <!-- Hero -->
+      <div class="hero">
+        <img
+          src="ChatGPT Image 14 فبراير 2026، 06_41_14 م.png"
+          alt="Amr Khaled"
+        />
+        <h1>Amr Khaled</h1>
+        <h2>Junior Data Scientist</h2>
+        <p>
+          Passionate about turning data into insights using Python, Pandas,
+          Machine Learning, and Data Visualization.
+        </p>
+      </div>
+
+      <!-- About -->
+      <section id="about">
+        <h3>About Me</h3>
+        <div class="about-content">
+          <p>
+            I am a Junior Data Scientist with a strong foundation in machine learning,
+            data analysis, and Python programming. I specialize in transforming raw
+            data into actionable insights using Pandas, Scikit-learn, SQL, and data
+            visualization tools.
+          </p>
+          <p>
+            Currently pursuing a Bachelor’s degree in Computer Science at Minya
+            University (2022–2026). I am passionate about solving real-world problems
+            using data-driven solutions and continuously improving my analytical and
+            technical skills.
+          </p>
+        </div>
+      </section>
+
+
+
+
+
+      <!--Contact details-->
+      <section>
+        <h3>Contact</h3>
+        <div id="contact" , class="buttons">
+          <a href="https://github.com/amr-khaled123">GitHub</a>
+          <a href="https://www.linkedin.com/in/amr-gamal1/">LinkedIn</a>
+          <a href="mailto:khamr6524@gmail.com">gmail</a>
+          <a href="https://t.me/Amr_khaled_74">Telegram</a>
+          <a href="https://wa.me/qr/77LEKWVQV65FN1">Whatsapp</a>
+          <a href="https://Instagram.com/3mr_khaled7">Instagram</a>
+          <a href="https://www.facebook.com/khamr6524?">Facebook</a>
+        </div>
+      </section>
+      <!-- Education -->
+      <section id="education">
+        <h3>Education</h3>
+        <div class="education-card">
+          <h4>Bachelor of Computer Science</h4>
+          <p><strong>University:</strong> Faculty of Computers & Information Technology – Minya University</p>
+          <p><strong>Duration:</strong> 2022 – 2026</p>
+          <p><strong>Graduation Project:</strong> Intelligent Freelancer Platform</p>
+          <p><strong>Relevant Coursework:</strong> Artificial Intelligence, Systems Analysis, Database Design, Networks</p>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section>
+        <h3>Skills</h3>
+        <div id="skills" , class="skills">
+          <div class="skill">Machine Learning</div>
+          <div class="skill">Python</div>
+          <div class="skill">Scikit-learn</div>
+          <div class="skill">Pandas</div>
+          <div class="skill">Matplotlib</div>
+          <div class="skill">NumPy</div>
+          <div class="skill">Data Cleaning</div>
+          <div class="skill">Data Visualization</div>
+          <div class="skill">EDA</div>
+          <div class="skill">power Bi</div>
+          <div class="skill">Communication Skills</div>
+          <div class="skill">problem Solving</div>
+        </div>
+      </section>
+      <!---->
+
+      <!-- Download CV -->
+      <section id="cv">
+        <h3>My CV</h3>
+        <div class="cv-box">
+          <p>You can download my updated resume below:</p>
+          <a href="CV..pdf" download class="cv-btn">
+            My CV
+          </a>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section>
+        <h3>Projects</h3>
+        <div id="projects" , class="projects">
+          <!--project 1-->
+          <div class="project">
+            <h4>Employees Status Analysis</h4>
+            <p>Analyzed employees status for HR</p>
+            <a
+              href="project_complete.pbix"
+              >View Project</a
+            >
+          </div>
+
+          <!--Project2-->
+          <div class="project">
+            <h4>Import and export analysis</h4>
+            <p>Analyzed import and export Electric home devices</p>
+            <a href="amr.pbix"
+              >View Project</a
+            >
+          </div>
+          <!--Project3-->
+          <div class="project">
+            <h4>Top 10 Demand data for data senior</h4>
+            <p>Analyzed and clean data file that has job posting</p>
+            <a href="analysis003.png">View Project</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p class="footer-title">Copyrights <span>© 2026 Amr Khaled · Data Scientist</span></p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/amr-gamal1/"><i class="fab fa-linkedin"></i></a>
+          <a href="https://wa.me/qr/77LEKWVQV65FN1"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://Instagram.com/3mr_khaled7"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/khamr6524?"><i class="fab fa-facebook"></i></a>
+          <a href="https://github.com/amr-khaled123"><i class="fab fa-github"></i></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
